@@ -7,7 +7,7 @@ Backend Developer Intern - Task Assignment<br>
   {
     "name":"Yasin",
     "role":"Consultant"
-  }
+  }<br>
   data should be passed in this way.<br>
   Excepted Output: "User added Sucessfully."<br>
 2.http://localhost:8080/Consultantlist<br>
@@ -16,13 +16,13 @@ Backend Developer Intern - Task Assignment<br>
   This API returns the all Clients in the database.<br>
 4.http://localhost:8080/client/bookSession<br>
   This API is used for booking appointment it requires feilds like daate, time, cientId, consultantId. <br>
-  eg:<br>
+  eg:
   {
     "date":"2023-12-04",
     "time":"15:00:00",
     "clientId":3,
     "consultantId":1
-  }
+  }<br>
   ClientId and consultantId ,Date and Time should be a valid one otherwise bookSession is failled.<br>
 5.http://localhost:8080/consultant/getAllSessions/{consultantId}<br>
   This API helps the consultant to see their upcoming sessions.<br>
@@ -43,7 +43,7 @@ the session. It requries two parameters one is sesioonId, and other one is docum
   {
     "sessionId":1,
     "feedback":"Good session"
-  }
+  }<br>
   SessionId must be a valid one otherwise review is not submitted.<br>
 12.http://localhost:8080/client/getReview/{sessionId}<br>
   This API is used for client to see the feedback of a session .<br>
