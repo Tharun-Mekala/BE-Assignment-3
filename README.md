@@ -1,6 +1,6 @@
 # BE-Assignment-3
 Backend Developer Intern - Task Assignment<br>
-<h3>List of API and their Usage</h3>h3><br>
+<h3><b>List of API and their Usage</b></h3><br>
 1.http://localhost:8080/adduser<br>
   This API is used for adding user to the database and it required name, role input.<br>
 2.http://localhost:8080/Consultantlist<br>
